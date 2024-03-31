@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Resultado do Teste</title>
+    <link rel="stylesheet" href="../static/css/styleHome.css">
+</head>
+<body>
+    <div class="container-home" id="resultadotorre">
+        <h1>Resultado do Teste</h1>
+        <p>Nome do Estudante: {{ resultado.student_name }}</p>
+        <p>Idade: {{ resultado.age }}</p>
+        <p>Pontuação Bruta: {{ resultado.raw_score }}</p>
+        <p>Pontuação Padronizada: {{ resultado.standardized_score }}</p>
+        <p>Classificação: {{ resultado.classification }}</p>
+
+        <a href="/torredelondres" class="voltar">Voltar</a>
+    </div>
+</body>
+</html>

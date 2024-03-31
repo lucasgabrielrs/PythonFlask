@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torre de Londres</title>
+    <link rel="stylesheet" href="../static/css/styleHome.css">
+</head>
+<body>
+    <div class="container-home">
+        <h1>Torre de Londres</h1>
+        <h2>Digite as informações sobre o teste: </h2>
+        <form class="forms" action="/torredelondres" method="post">
+            <label for="nome">Nome</label><input type="text" name="nome" id="nome">
+            <label for="idade">Idade</label><input type="number" name="idade" id="idade" required>
+            <label for="acertos">Acertos</label><input type="number" name="acertos" id="acertos" required>
+            <input type="submit" value="Calcular Pontuação">
+            <a href="/" class="voltar">Voltar</a>
+        </form>
+    </div>
+</body>
+</html>

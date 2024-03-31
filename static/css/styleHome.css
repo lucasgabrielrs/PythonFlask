@@ -1,0 +1,130 @@
+html {
+    margin: 0px;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4CAFED;
+}
+
+.container-home {
+    display: flex;
+    flex-direction: column; /* empilha os itens verticalmente */
+    justify-content: center; /* centraliza verticalmente no contêiner */
+    align-items: center;
+
+    width: 600px;
+    height: 500px;
+    background-color: #142E3E;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-home h1 {
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+.container-home h2 {
+    color: white;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.container-home p {
+    color: #4CAFED;
+    font-size: 13pt;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.container-home a {
+    width: 30%;
+    margin: 1rem;
+    text-decoration: none;
+    color: #142E3E;
+    background-color: #4CAFED;
+    font-size: 16pt;
+    padding: 15px;
+    border-radius: 20px;
+    border: none; /* Remover bordas padrões */
+    cursor: pointer; /* Estilo do cursor como um ponteiro para indicar que é clicável */
+}
+
+.container-home a:hover {
+    color: white;
+    background-color: #3b88b8;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column; /* empilha os itens verticalmente */
+    justify-content: center; /* centraliza verticalmente no contêiner */
+    align-items: center;
+}
+
+.forms label {
+    color: #4CAFED;
+    margin-top: 1.5rem;
+}
+
+.container-home a.voltar {
+    background-color: #4CAFED; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    margin: 8px 0; /* Margem externa do botão */
+    border: none; /* Remover bordas padrões */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Estilo do cursor como um ponteiro para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container-home a.voltar:hover {
+    background-color: #3b88b8;
+}
+
+.container-home#resultadotorre {
+    display: flex;
+    flex-direction: column; /* empilha os itens verticalmente */
+    justify-content: center; /* centraliza verticalmente no contêiner */
+    align-items: center;
+
+    width: 600px;
+    height: 450px;
+    background-color: #142E3E;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-home input[type='submit'] {
+    background-color: #4CAFED; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 15px; /* Espaçamento interno do botão */
+    margin: 8px 0; /* Margem externa do botão */
+    border: none; /* Remover bordas padrões */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Estilo do cursor como um ponteiro para indicar que é clicável */
+    font-size: 16px; /* Tamanho da fonte */
+    margin-top: 2rem;
+}
+
+.container-home input[type='submit']:hover {
+    background-color: #3b88b8; /* Cor de fundo ao passar o mouse sobre o botão */
+}
