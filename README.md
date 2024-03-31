@@ -10,6 +10,12 @@ Este sistema web, desenvolvido em Python com o microframework Flask, permite o c
 - **Cálculo Automático**: O sistema calcula automaticamente a classificação e nota com base nos resultados inseridos.
 - **Visualização de Resultados**: Visualize um resumo dos resultados, incluindo as classificações e notas de todos os participantes cadastrados.
 
+## Vídeo demonstrativo
+
+
+https://github.com/lucasgabrielrs/PythonFlask/assets/123906808/6a570414-c0f6-453a-80db-718a2aeebf13
+
+
 ## Tecnologias Utilizadas
 
 - **Backend**: Python, Flask
@@ -56,10 +62,10 @@ flask run OU python app.py
 
 ## Contato
 
-Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato através do [lucasgabrielrs123@gmail.com].
+Se você tiver alguma dúvida ou sugestão, não hesite em entrar em contato através do lucasgabrielrs123@gmail.com.
 
 ---
 
-Desenvolvido por [Lucas Gabriel].
+Desenvolvido por Lucas Gabriel.
 
 
