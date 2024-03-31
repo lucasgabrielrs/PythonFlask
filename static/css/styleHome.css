@@ -96,23 +96,6 @@ body {
     background-color: #3b88b8;
 }
 
-.container-home#resultadotorre {
-    display: flex;
-    flex-direction: column; /* empilha os itens verticalmente */
-    justify-content: center; /* centraliza verticalmente no contêiner */
-    align-items: center;
-
-    width: 600px;
-    height: 450px;
-    background-color: #142E3E;
-    border-radius: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .container-home input[type='submit'] {
     background-color: #4CAFED; /* Cor de fundo do botão */
     color: white; /* Cor do texto */
@@ -128,3 +111,4 @@ body {
 .container-home input[type='submit']:hover {
     background-color: #3b88b8; /* Cor de fundo ao passar o mouse sobre o botão */
 }
+
