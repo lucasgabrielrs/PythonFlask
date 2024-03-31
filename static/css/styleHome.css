@@ -44,7 +44,7 @@ body {
 
 .container-home p {
     color: #4CAFED;
-    font-size: 13pt;
+    font-size: 100%;
     text-align: center;
     font-weight: bolder;
 }
@@ -55,7 +55,7 @@ body {
     text-decoration: none;
     color: #142E3E;
     background-color: #4CAFED;
-    font-size: 16pt;
+    font-size: 100%;
     padding: 15px;
     border-radius: 20px;
     border: none; /* Remover bordas padrões */
@@ -112,3 +112,24 @@ body {
     background-color: #3b88b8; /* Cor de fundo ao passar o mouse sobre o botão */
 }
 
+/*Responsividade*/
+
+@media screen and (max-width: 430px) {
+   .container-home {
+        width: 80%;
+        height: 80%;
+   }
+
+    .container-home h1 {
+        color: white;
+        font-size: 18pt;
+        text-align: center;
+        margin: 1.5rem;
+    }
+
+    .container-home h2 {
+        color: white;
+        font-size: 9pt;
+        text-align: center;
+    }
+  }
